@@ -5,40 +5,41 @@
   background: #ccc;
 } */
  
-.nav ul {
+.navUl {
   list-style: none;
   background-color: #444;
   text-align: center;
   padding: 0;
   margin: 0;
 }
-.nav li {
+.navUl li{
   font-family: 'Oswald', sans-serif;
   font-size: 1.2em;
-  line-height: 40px;
-  height: 40px;
+  line-height: 50px;
+  height: 50px;
   border-bottom: 1px solid #888;
 }
  
-.nav a {
+.navLi {
   text-decoration: none;
   color: #fff;
   display: block;
   transition: .3s background-color;
 }
  
-.nav a:hover {
-  background-color: #005f5f;
+.navLi:hover {
+  background-color: #0080E6;
+  color: #ccc;
 }
  
-.nav a.active {
+.navLi.active {
   background-color: #fff;
   color: #444;
   cursor: default;
 }
  
 @media screen and (min-width: 600px) {
-  .nav li {
+  .navUl li {
     width: 120px;
     border-bottom: none;
     height: 60px;
@@ -47,7 +48,7 @@
   }
  
   /* Option 1 - Display Inline */
-  .nav li {
+  .navUl li {
     display: inline-block;
     margin-right: -4px;
   }
