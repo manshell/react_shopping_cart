@@ -17,7 +17,7 @@ class Portfolio extends Component {
   render() {
     return (
         <main>
-          <Filter />
+          {/* <Filter /> */}
           <Shelf />
         </main>
     );

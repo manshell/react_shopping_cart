@@ -6,12 +6,17 @@
 } */
  
 .navUl {
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
   list-style: none;
   background-color: #444;
   text-align: center;
   padding: 0;
   margin: 0;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
 }
+
 .navUl li{
   font-family: 'Oswald', sans-serif;
   font-size: 1.2em;
@@ -28,7 +33,7 @@
 }
  
 .navLi:hover {
-  background-color: #0080E6;
+  background-color: #f895e7;
   color: #ccc;
 }
  

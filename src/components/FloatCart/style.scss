@@ -26,7 +26,7 @@
     cursor: pointer;
 
     &:hover {
-      background-color: #0080e7;
+      background-color: #f895e7;
     }
   }
 
@@ -67,7 +67,7 @@
       text-align: center;
       line-height: 18px;
       border-radius: 50%;
-      background-color: #0080e7;
+      background-color: #f895e7;
       position: absolute;
       bottom: -5px;
       right: 0px;
@@ -181,7 +181,7 @@
         }
       }
       &__price {
-        color: #0080e7;
+        color: #f895e7;
         text-align: right;
         width: 25%;
       }
@@ -230,7 +230,7 @@
       }
 
       &__val {
-        color: #0080e7;
+        color: #f895e7;
         font-size: 22px;
       }
     }
@@ -247,7 +247,7 @@
       transition: background-color 0.2s;
 
       &:hover {
-        background-color: #0080e7;
+        background-color: #f895e7;
       }
     }
   }

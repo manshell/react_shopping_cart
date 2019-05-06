@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './components/Home';
+//import App from './components/Home';
 import Root from './Root';
 import Navbar from './components/Main'
 // import FloatCart from './components/FloatCart';
